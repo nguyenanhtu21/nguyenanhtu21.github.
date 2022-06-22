@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../asscets/CSS/style.css">
+    <link rel="stylesheet" href="../asscets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./asscets/font/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="./asscets/CSS/responsive.css">
+    <script src="./asscets/js/main.js"></script>
+</head>
+
+<body>
+  <script src="./bootstrap-5.1.3-dist/js/bootstrap.js">
+  </script>
+  <div id="main">
+    <div id="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="logo-container"><img src="./asscets/img/logo-small.png"></div>
+        <div class="container-fluid">
+          <button class="navbar-toggler navbar-mobile-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bạn đang tìm?</a>
+                <ul class="subnav dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Tập mới</a></li>
+                  <li><a class="dropdown-item" href="#">Đang hot</a></li>
+                  <li><a class="dropdown-item" href="#">Được xem nhiều</a></li>
+                  <li><a class="dropdown-item" href="#">Mới đăng</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Thể loại
+                </a>
+                <ul class="subnav dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Hoạt hình trẻ em</a></li>
+                  <li><a class="dropdown-item" href="#">Hoạt hình tổng hợp</a></li>
+                  <li><a class="dropdown-item" href="#">Xem ngẫu nhiên</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bộ sưu tập</a>
+              </li>
+            </ul>
+            <form class="d-flex form-search">
+              <input class="form-control me-2" type="search" placeholder="Nhập nội dung tìm kiếm..." aria-label="Search">
+              <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <button class="btn btn-outline-primary js-login login-main-btn">Đăng nhập</button>
+          </div>
+        </div>
+      </nav>
+        </div>    
+    <div id="content" class="content">
+      <div class="silder">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <ul class="slides-image-container">
+                <li class="slides-item"><a href="http://127.0.0.1:5501/xemphim.html" class=""><img src="./asscets/img/image1.jpeg" alt="image" class="">
+                    <button class="play-btn"><i class="fa fa-circle-play play-icon"></i></button>
+                </a></li>
+                <li class="slides-item"><a href="http://127.0.0.1:5501/xemphim.html" class=""><img src="./asscets/img/image2.jpeg" alt="image" class="">
+                  <button class="play-btn"><i class="fa fa-circle-play play-icon"></i></button></a></li>
+                <li class="slides-item"><a href="http://127.0.0.1:5501/xemphim.html" class=""><img src="./asscets/img/image3.jpeg" alt="image" class="">
+                  <button class="play-btn"><i class="fa fa-circle-play play-icon"></i></button></a></li>
+                <li class="slides-item"><a href="http://127.0.0.1:5501/xemphim.html" class=""><img src="./asscets/img/image4.jpeg" alt="image" class="">
+                  <button class="play-btn"><i class="fa fa-circle-play play-icon"></i></button></a></li>
+            </ul>
+
+            </div>
+            <div class="carousel-item">
+              <ul class="slides-image-container">
+                <li class="slides-item"><a href="" class=""><img src="./asscets/img/slide5.jpg" alt="image" class="list-film-image">
+                  <button class="play-btn"><i class="fa fa-circle-play play-icon"></i></button>
+              </a></li>
+              <li class="slides-item"><a href="http://127.0.0.1:5501/xemphim.html" class=""><img src="./asscets/img/slide6.jpg" alt="image" class="">
+                <button class="play-btn"><i class="fa fa-circle-play play-icon"></i></button></a></li>
+              <li class="slides-item"><a href="http://127.0.0.1:5501/xemphim.html" class=""><img src="./asscets/img/slide7.jpg" alt="image" class="">
+                <button class="play-btn"><i class="fa fa-circle-play play-icon"></i></button></a></li>
+              <li class="slides-item"><a href="http://127.0.0.1:5501/xemphim.html" class=""><img src="./asscets/img/slide8.jpg" alt="image" class="">
+                <button class="play-btn"><i class="fa fa-circle-play play-icon"></i></button></a></li>
+            </ul>
+
+            </div>
+            <div class="carousel-item">
+              <ul class="slides-image-container">
+                <li class="slides-item"><a href="http://127.0.0.1:5501/xemphim.html" class=""><img src="./asscets/img/slide9.jpg" alt="image" class="">
+                  <button class="play-btn"><i class="fa fa-circle-play play-icon"></i></button>
+              </a></li>
+              <li class="slides-item"><a href="http://127.0.0.1:5501/xemphim.html" class=""><img src="./asscets/img/slide10.jpg" alt="image" class="">
+                <button class="play-btn"><i class="fa fa-circle-play play-icon"></i></button></a></li>
+              <li class="slides-item"><a href="http://127.0.0.1:5501/xemphim.html" class=""><img src="./asscets/img/slide11.jpg" alt="image" class="">
+                <button class="play-btn"><i class="fa fa-circle-play play-icon"></i></button></a></li>
+              <li class="slides-item"><a href="http://127.0.0.1:5501/xemphim.html" class=""><img src="./asscets/img/slide12.jpg" alt="image" class="">
+                <button class="play-btn"><i class="fa fa-circle-play play-icon"></i></button></a></li>
+            </ul>
+
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      </div> 
+      <div class="list-film">
+          <div class="container">
+            <h4>Phim mới cập nhật</h4>
+            <div class="row list-film">
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" onclick="getlinkImage()" src="./asscets/img/archer.jpg">
+                </div>
+                <label for="list-film-item">Archer</label>
+                <p>Action</p>
+              </div>
+              <div class="col  list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/Gravityfallfall.jpg">
+                </div>
+                <label>Gravity fall</label>
+                <p>Action</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/Theboys.jpg">
+                </div>
+                <label>The Boys Present</label>
+                <p>Action</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/insidejob.jpg">
+                </div>
+                <label>Inside Job</label>
+                <p>Adult's Cartoon</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/lovedeathandrobots.jpg">
+                </div>
+                <label>Love, Death & Robot</label>
+                <p>Action</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/rickandmorty.jpg">
+                </div>
+                <label>Rick & Morty</label>
+                <p>Adult's Cartoon</p>
+              </div>
+            </div>
+            <h4>Tất cả phim</h4>
+            <div class="row list-film">
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/Ted2.jpg">
+                </div>
+                <label>Ted 2</label>
+                <p>Adult's Cartoon</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/coraline.jpg">
+                </div>
+                <label>Coraline</label>
+                <p>Horror</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/arcane.jpg">
+                </div>
+                <label>Arcane</label>
+                <p>Action</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/bloodofzeus.jpg">
+                </div>
+                <label>Blood of Zeus</label>
+                <p>Fantasy</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/Injustice.jpg">
+                </div>
+                <label>Injustice</label>
+                <p>Adult's Cartoon</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/Mortalkombat.jpg">
+                </div>
+                <label>Mortal Kombat</label>
+                <p>Dark</p>
+              </div>
+            </div>
+            <div class="row list-film">
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/castlevania.jpg">
+                </div>
+                <label>Castle Vania</label>
+                <p>Fantasy</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/americadad.jpg">
+                </div>
+                <label>American Dad!</label>
+                <p>Adult's Cartoon</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/tomandjerry.jpg">
+                </div>
+                <label>Tom and Jerry</label>
+                <p>Comedy</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/invincible.jpg">
+                </div>
+                <label>Invincible</label>
+                <p>Dark</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/youngjustice.jpg">
+                </div>
+                <label>Young Justice</label>
+                <p>Adult's Cartoon</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/9.jpg">
+                </div>
+                <label>9 (2009)</label>
+                <p>Horror</p>
+              </div>
+            </div>
+            <div class="row list-film">
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/whatif.jpg">
+                </div>
+                <label>MAVEL: What if?</label>
+                <p>Adult's Cartoon</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/theamazingworld.jpg">
+                </div>
+                <label>The Amazing World</label>
+                <p>Adult's Cartoon</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/familyguy.jpg">
+                </div>
+                <label>Family Guy</label>
+                <p>Adult's Cartoon</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/thechampions.jpg">
+                </div>
+                <label>The champions</label>
+                <p>Comedy</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/brickleberry.jpg">
+                </div>
+                <label>Brickleberry</label>
+                <p>Adult's Cartoon</p>
+              </div>
+              <div class="col list-film-item">
+                <div class="list-film-image-container">
+                  <img class="list-film-image" src="./asscets/img/futurama.jpg">
+                </div>
+                <label>Futurama</label>
+                <p>Comedy</p>
+              </div>
+            </div>
+            <div class="col-12 next-page">
+                <button class="page-number">1</button>
+                <button class="next-page-btn"><i class="fa fa-arrow-right"></i></button>
+            </div>
+      </div>
+    </div>
+    <div id="ad-native">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="col ad-item"><img src="https://bepiletussar.casa/tsk/t6eCm311Xs3D5tKfjuFGHRCsiqMOjeyxn8lko_Kqrv9h5CeoCrJrZ__Tl_QoibTOK8*iviYvCaSliWSPQ2KDw5_7Lcel6dNDRcV6oQE8I4*6FvLrz9BRVYYNKyC3kWu0RF5F4CXXlHC41DTz6kaQBlVA8CYUjf42aDjK1FohDomGMiEwSNrwrqo0dyXcgRMnnPAJQeS0H_rK8HHokLo94f5h8zuT2Ilttu1XOgWxkePaRlC6iEtJxxdB0BpV4yJYHAEzZENso6X49PT5K*cQKPEjN4uIa7m63D6fSiuVUzsy1DpCC3YObIVvk19DJFq1POAZhWPZXelLc7N_R05_BZWrL2Rq1owt0q2A_KEwZ9gv5XUREQ7Mt0pecz9_atfcZTQsLSKEJGEOvn1PM*pI2CBi6GAj5NopWajeZHl34MGT9JS1E4gRhPyxbl*Zjis97F**XTz*35W2KGe9zbaFWI9BCfFP56UHT2pgPHjqKMk" alt="" class="">
+            <div class=""><div class="ad-heading"><h6>Combo 4 quần short vải gió nam giá chỉ 399k</h6></div></div>
+          </div>
+          <div class="col ad-item"><img src="https://bepiletussar.casa/tsk/t6eCm311Xs3D5tKfjuFGHRCsiqMOjeyxn8lko_Kqrv_PjuxZTtUaJdFa7LayYOE6ZtuxDT*yVIK47llxP1YCIxP*cjIHiyNfIqF6GLRYmyztd6b3ducuIQ6imGqvhxg*Aa0uLgTHET_H8hJGUVuFFdMwv8VAPwtdVufUf7hx7Q70LtB2iwMlt30S8qpxfmnQqoUDcl0OiV7IZm4wOqJrxoPgpaP73GuPCeJFg8zH00pC_EaMSm*OQ1vdiYpYcgrQ_3YwFjgf_MCQJiCd0HWmBNYqbr_O89LXhfy8Ef*IK3ybW4cRVbAa4OmLNYTv1K823mAEkRyIuOW*XgqRCjkE0WIYw*XNPPObBJ4Omoq3WJY8tXhZS_tpyQGL7GMl*9l7tV2e4GUTZBsC3dwiiN9mVueILTbGMnICDCppxWmFaDv3kFTkpmAGkl93x*pjzDfIavzFPgGAacSVf0LvMBIEU2ZkrPLIVPZH8F8jSkGB*u4" alt="" class="">
+             <div class="ad-heading"> <h6>Rủng rỉnh quà tặng tại One88-hoàn trả 60%-Cược ngay!</h6></div>
+          </div>
+          <div class="col ad-item"><img src="https://bepiletussar.casa/tsk/t6eCm311Xs3D5tKfjuFGHRCsiqMOjeyxn8lko_Kqrv*3FsOf5t4QQrOC5s2H28IkAa089*AcTGp6d6*lMVLBKMqehY49AKX_t8eQ7aHIJKZHriaUH6AxCXnjenvjfuMasFowWdGLU5IGX74JP_UR_tkJRtunOOW1G*AYpeqTZaRIdHKoplhVGaKuGqczANWGthxacdHDhsjr_JEdxuzY2lT24B7jiH1CsCpsEDTjxaVgYOTfH9p1ZLscIzM6lGyg753HcW5MeQC2j*CiHF3HZc54bmCz3PBb2cCM3d3Ry0PKawLJiIV2z4RyTrcb0Sq_nMqr7vABCxAIN2gxOSm5owDyzUQVDrJID35D0xm1Jzzlnk8SmK0atK2EeVj_zM4r8Ev51KIg5oMBs7L2kJ6SsZpJhXMmU*1X5MNP3QqXV9EBBvolKG0dNxqSVvA3N_zI2VAbUvkrAOz_3TVN09cR5lov2zu4Cpi69XKhff7HhgY" alt="" class="">
+            <div class="ad-heading"><h6>Cá cược thần tốc ngay hôm nay! Ưu đãi khủng 15tr</h6></div>
+          </div>
+          <div class="col ad-item"><img src="https://bepiletussar.casa/tsk/t6eCm311Xs3D5tKfjuFGHRCsiqMOjeyxn8lko_Kqrv9sZvYlXHDJajtmTAHTsaVwvJMzGm9t8Qs2OhKum4NMEhFN8_5NWyxxOFYxB1Rg6QyUAWjQ_Xhmmmkyqnz2B7sgpSZOu2tbOUWYjcbTbEgQQX0toHW6s2Ebiex1Iyangschs6DEtRWjJGd1Qxr1NdUZflLpDkCHbDl0P*IHwG*VDYCbb9a3V01YsolMYqI3hd918PMN1fgmQroV2_pC0e_*BvCIHatbdPxIVaR77oIH0hSKoWRYZ2oXYuJbnZcXUpQlNghpZNM0dvCQYylc5q0flY1shyQFQlDvXBlZ7Tudez9XXovfz3YPY_De9N9S631CW7oXjl8K1PdmwV1dcFjjoAWwqScMxicnndhTw9Mvb_imyyHWAOrvyZr7gPqXv3C_PCncFrqJwd0e7TU3d0EWy90suKUAZTaBt1QbCuXQCj8PLxV6l*C6DCVPdC*PCsc" alt="" class="">
+              <div class="ad-heading"><h6>One88-Nạp lần đầu nhận ưu đãi đến 18000000đ! Vào chơi ngay!</h6></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4"><img src="./asscets/img/logo-small.png">
+          </div>
+          <div class="col-2">
+            <ul class="link-list">
+              <p>Hoathinhlau.tv</p>
+              <li><a href="">FB Fanpage</a></li>
+              <li><a href="">FB Group</a></li>
+              <li><a href="">TikTok</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul class="link-list">
+              <p>Phim Hot</p>
+              <li><a href="">Love, Death & Robots</a></li>
+              <li><a href="">The Boys Presents:<br> Diabolical</a></li>
+              <li><a href="">Inside Job</a></li>
+              <li><a href="">The Amazing World <br>Of Gumball</a></li>
+              <li><a href="">Phineas and Ferb</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul class="link-list">
+            <p>Thể loại</p>
+            <li><a href="">Action</a></li>
+            <li><a href="">Adult's Cartoon</a></li>
+            <li><a href="">Comedy</a></li>
+            <li><a href="">Dark</a></li>
+            <li><a href="">Fantasy</a></li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <ul class="link-list">
+          <p>Tag</p>
+          <li><a href="">Gumball</a></li>
+          <li><a href="">Brickleberry</a></li>
+          <li><a href="">Futurama</a></li>
+          <li><a href="">DC</a></li>
+          <li><a href="">Futurama</a></li>
+        </ul>
+      </div>
+      </div>
+      <hr style="color:#0d47b3">
+      <div id="contact">
+        <div class="container">
+            <div class="row contact-link">
+                <div class="col-9"><a href="">@Hoathinhlau</a></div>
+                <div class="col-1"><a href="">Liên hệ</a></div>
+                <div class="col-2"><a href="">Privacy policy</a></div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  </div>  
+  <div class="login-modal">
+    <div class="modal-container">
+        <button class="close-btn js-close-btn"><i class="fa fa-close"></i></button>
+        <div class="form-btn">
+            <button class="login-btn js-login-btn"><i class="fa-solid fa-user"></i></i>Đăng nhập bằng tài khoản</button>
+            <button class="login-btn"><i class="fa-brands fa-google"></i>Đăng nhập bằng Google</button>
+        </div>
+        <form class="modal-form-control">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password...">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+  </div>
+  <script>
+      const closeBtn = document.querySelector('.js-close-btn')
+      const modal = document.querySelector('.login-modal')
+      const modalLoginBtn = document.querySelector('.js-login-btn')
+      const loginBtn = document.querySelector('.js-login')
+      const formBtn = document.querySelector('.form-btn') 
+      const modalFormcontrol =document.querySelector('.modal-form-control')
+      function showModal(){
+          modal.classList.add('js-open')
+      }
+      loginBtn.addEventListener('click', showModal)
+
+      function hideModal(){
+          modal.classList.remove('js-open')
+      }
+
+      function hideformBtn(){
+        formBtn.classList.add('js-close')
+      }
+
+      function showModalformcontrol(){
+        modalFormcontrol.classList.add('js-open')
+      }
+      modalLoginBtn.addEventListener('click',  showModalformcontrol)
+      modalLoginBtn.addEventListener('click',  hideformBtn)
+      
+
+      closeBtn.addEventListener('click', hideModal)
+  </script>
+</body>
+</html>
